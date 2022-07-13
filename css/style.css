@@ -1,0 +1,53 @@
+/* define var for root element*/
+:root{
+    --main-bg-color: #f4f4f4f4;
+    --maim-text-color: rgb(0, 0, 0);
+    --container-width: 90%;
+    --header-bg-color:yellow;
+    --box-h1-color:rgb(252, 7, 7);
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: var(--main-bg-color);
+    color: var(--maim-text-color);
+    line-height: 1.2;
+}
+.container{
+    width: var(--container-width);
+    margin: 20px;
+    padding: 20px auto;
+
+}
+#main-header h1{
+    background-color:var(--box-h1-color);
+    color:var(--header-bg-color);
+    margin: 0;
+    padding: 0;
+}
+.box{
+    --box-bg-color:gray;
+    
+    --padding:11px 10px;
+
+}
+.box{
+    background-color: var(--box-bg-color);
+    color: var(--box-text-color);
+    padding: var(--padding);
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 25px;
+    text-align: center;
+}
+.box{
+    background-color: var();
+    border: 3px solid var(--box-h1-color);
+    box-shadow: 10px 5px 5px var(--box-bg-color);
+}
+h1{
+    color:var(--box-h1-color);
+}
